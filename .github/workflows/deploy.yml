@@ -38,4 +38,4 @@ jobs:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./build
           cname: dongkey.tech
-          enable_jekyll: false
+          enable_jekyll: 'false'

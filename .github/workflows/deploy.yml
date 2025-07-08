@@ -31,11 +31,13 @@ jobs:
       - name: Build website
         run: npm run build
 
+      - name: List build files
+        run: ls -la build/
+
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./build
           cname: dongkey.tech
-          enable_jekyll: 'false'
+          enable_jekyll: false

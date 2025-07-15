@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdongkey=self.webpackChunkdongkey||[]).push([[583],{6866:(e,u,n)=>{n.r(u),n.d(u,{default:()=>r});var t=n(6347),k=n(4848);function r(){return(0,k.jsx)(t.rd,{to:"/about"})}}}]);

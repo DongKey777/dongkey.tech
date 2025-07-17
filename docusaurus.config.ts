@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Dongkey.tech',
   tagline: 'so cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/D_logo_favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -100,12 +100,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/D_logo.jpg',
     navbar: {
       title: '',
       logo: {
         alt: 'dongkey\'s tech Logo',
-        src: 'img/logo.svg',
+        src: 'img/D_logo.svg',
       },
       items: [
         {to: '/about', label: 'About', position: 'left'},

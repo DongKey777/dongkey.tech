@@ -3,7 +3,13 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+/* Pretendard 폰트 import */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 
+/* 전체 사이트에 Pretendard 폰트 적용 */
+html {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;

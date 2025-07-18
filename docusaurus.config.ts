@@ -114,30 +114,14 @@ const config: Config = {
         {to: '/projects', label: 'Projects', position: 'left'},
         {
           href: 'https://github.com/DongKey777/dongkey.tech',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'Github repository',
         },
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          items: [
-            {
-              html: `
-                <div style="text-align: center;">
-                  <a href="https://github.com/DongKey777" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <span style="margin: 0 20px;">|</span>
-                  <a href="https://linkedin.com/in/sample-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                  <span style="margin: 0 20px;">|</span>
-                  <a href="mailto:sample@example.com">Email</a>
-                </div>
-              `,
-            },
-          ],
-        },
-      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Dongkey. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -57,3 +57,7 @@ html {
   --ifm-link-color: #25c2a0;
   --ifm-background-color: #1b1b1d;
 }
+
+.theme-doc-sidebar-container {
+  border-right: none !important;
+}
